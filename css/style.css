@@ -1,0 +1,280 @@
+/*common css start*/
+@font-face{
+	font-family: Lato-Regular;
+	src:  url(../fonts/lato/Lato-Regular.ttf);
+}
+@font-face{
+	font-family: Lato-Bold;
+	src:  url(../fonts/lato/Lato-Bold.ttf);
+}
+
+body{
+margin: 0;
+padding: 0;
+font-family: Lato-Regular;
+font-size: 15px;
+font-weight: 400;
+color: #999999;
+}
+
+/*common css end*/
+
+/*header start*/
+header{
+padding: 20px 0;
+	background: #f0f0f0;
+}
+.wrapper{
+	margin: 0 auto;
+	width: 75%;
+	overflow: hidden;
+}
+.logo{
+	width: 15%;
+}
+.logo img{
+	width: 100%;
+}
+/*header end*/
+
+/*banner start*/
+.banner{
+	
+	padding: 200px 0 100px;
+	background-image: url(../images/bg1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+.wrapper2{
+	margin: 0 auto;
+	width: 50%;
+	text-align: center;
+	/*border: 1px solid red;*/
+}
+.wrapper2 h1{
+	margin-top: 0;
+	margin-bottom: 30px;
+	padding: 15px 0;
+font-family: Lato-Bold;
+font-size: 120px;
+font-weight: 700;
+color: white;
+text-transform: uppercase;
+border-bottom: 2px solid #15a4fa;
+}
+.p_20{
+	font-family: Lato-Regular;
+font-size: 20px;
+font-weight: 400;
+color: white;
+}
+.wrapper2 button{
+	margin-top: 50px;
+	width: 175px;
+    height: 55px;
+    font-family: Lato-Regular;
+    font-size: 18px;
+    font-weight: 400;
+    background: transparent;
+    color: white;
+    border: 2px solid #15a4fa;
+    border-radius: 5px;
+    transition: 0.15s;
+    cursor: pointer;
+}
+.wrapper2 button:hover{
+background:#15a4fa ;
+}
+.wrapper2 a{
+	margin-top: 100px;
+	display: block;
+}
+
+/*banner end*/
+
+/*simple start*/
+.simple{
+	padding: 70px 0;
+	background: #f6f9f9;
+	text-align: center;
+}
+.h1_40{
+	margin-bottom: 20px;
+	font-size: 40px;
+	color: #2d3950;
+}
+.p_ash{
+	color: #999999;
+	line-height: 30px;
+}
+
+/*simple end*/
+
+/*service start*/
+.service{
+	padding: 40px 0;
+}
+.single{
+	padding: 0 10px;
+    margin-right: 110px;
+    width: 25%;
+    text-align: center;
+    float: left;
+    
+}
+.single:last-child{
+	margin-right: 0;
+}
+.s_icon{
+	margin: 0 auto;
+	width: 50%;
+}
+.s_icon img{
+	width: 100%;
+}
+
+.single h2{
+    font-size: 22px;
+	color: #2d3950;
+}
+/*service end*/
+
+/*showcase start*/
+.showcase{
+	padding: 50px 0;
+	background: #f6f9f9;
+	text-align: center;
+}
+.show{
+	width: 30%;
+	margin-right: 15px;
+	padding-bottom: 35px;
+}
+
+.show img{
+	width: 100%;
+}
+
+.p_mg{
+	margin:  0 0 20px;
+}
+.sh_single{
+	margin-top: 85px;
+}
+/*showcase end*/
+
+/*contact start*/
+.contact{
+	padding: 50px 0 100px;
+	background-image: url(../images/bg2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.info{
+	margin: 0 auto;
+	
+	text-align: center;
+	/*border: 1px solid cyan;*/
+}
+.info h1{
+	color: white;
+}
+.c_form{
+	margin: 0 auto;
+    margin-top: 80px;
+    position: relative;
+    width: 455px;
+	/*border: 1px solid red;*/
+}
+
+.name, .email{
+	margin-bottom: 25px;
+    padding: 20px 15px;
+    width: 420px;
+    font-family: Lato-Regular;
+    font-size: 15px;
+    font-weight: 400;
+    background: transparent;
+    color: #999999;
+    border: 1px solid #999999;
+border-radius: 5px;
+}
+.name, .email:focus{
+outline: none;
+	}
+textarea{
+	margin-bottom: 25px;
+    padding: 20px 15px;
+    width: 420px;
+    font-family: Lato-Regular;
+    font-size: 15px;
+    font-weight: 400;
+    background: transparent;
+    color: #999999;
+    border: 1px solid #999999;
+    border-radius: 5px;
+}
+textarea:focus{
+outline: none;
+	}
+
+.check{
+
+	position: absolute;
+	bottom: 11px;
+	left: 0;
+}
+
+.info button{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 140px;
+	height: 45px;
+	font-family: Lato-Regular;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    background: transparent;
+	border: 1px solid #15a4fa;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.15s;
+}
+
+.info button:hover{
+	background: #15a4fa;
+}
+
+/*contact end*/
+
+/*footer start*/
+footer{
+	padding: 15px 0;
+	background: #f6f9f9;
+}
+.copy{
+	    margin-top: 9px;
+	float: left;
+}
+.social{
+	float: right;
+}
+.social ul{
+	float: right;
+}
+.social ul li{
+	list-style: none;
+	float: left;
+}
+.social ul li a{
+	margin-right: 10px;
+	text-decoration: none;
+}
+.social ul li:last-child a{
+	margin-right: 0;
+}
+/*footer end*/
