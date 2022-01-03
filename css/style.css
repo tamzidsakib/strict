@@ -116,9 +116,12 @@ background:#15a4fa ;
 .service{
 	padding: 40px 0;
 }
+.sr_single{
+overflow: hidden;
+}
 .single{
-	padding: 0 10px;
-    margin-right: 110px;
+	padding: 0 1.16%;
+    margin-right: 9%;
     width: 25%;
     text-align: center;
     float: left;
@@ -147,10 +150,15 @@ background:#15a4fa ;
 	background: #f6f9f9;
 	text-align: center;
 }
+.sh_single1, .sh_single2{
+	
+overflow: hidden;
+}
 .show{
 	width: 30%;
-	margin-right: 15px;
-	padding-bottom: 35px;
+	margin-right: 1.5%;
+	padding-bottom: 3%;
+	float: left;
 }
 
 .show img{
